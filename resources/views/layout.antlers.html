@@ -8,8 +8,14 @@
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
     <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-white">
+        <header class="header">
+            <h3>THIS IS THE HEADER</h3>
+        </header>
         <div class="mx-auto lg:min-h-screen flex flex-col items-center">
             {{ template_content }}
         </div>
+        <footer class="footer">
+            <h3>THIS IS THE FOOTER</h3>
+        </footer>
     </body>
 </html>

@@ -9,7 +9,7 @@ hero_image:
 hero_heading: 'Hero Heading'
 hero_subtitle: 'Hero Subtitle'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744218812
+updated_at: 1744223184
 buttons:
   -
     id: m99zisfv
@@ -17,7 +17,7 @@ buttons:
     type: new_set
     enabled: true
     button_link: 'https://4d129992.churchtrac.com/sign-in'
-cta_heading: 'CTA HEADING'
+cta_heading: 'CTA Heading'
 cta_subtitle: 'CTA Subtitle'
 cta_button_text: 'CTA button'
 cta_button_link: /prayer
