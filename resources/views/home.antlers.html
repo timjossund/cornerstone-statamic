@@ -1,4 +1,4 @@
-<section class="hero-section" style="{{hero_image}}background-image:url('{{ glide:url width="100%" height="auto" }}');{{/hero_image}}">
+<section class="hero-section" {{hero_image}}style="background-image:url('{{ glide:url width="100%" height="auto" }}');"{{/hero_image}}>
     <div class="overlay"></div>
     <div class="hero-content">
         <h1>{{ hero_heading }}</h1>
@@ -34,7 +34,7 @@
         {{ cta_button_text }}
     </a>
 </section>
-<section class="second-cta-section"style="{{second_cta_bg_image}}background-image:url('{{ glide:url width="100%" height="auto" }}');{{/second_cta_bg_image}}">
+<section class="second-cta-section"{{second_cta_bg_image}}style="background-image:url('{{ glide:url width="100%" height="auto" }}');"{{/second_cta_bg_image}}>
     <h2>{{ second_cta_heading }}</h2>
     <h3>{{ second_cta_subheading }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
