@@ -9,7 +9,7 @@ hero_image:
 hero_heading: 'Hero Heading'
 hero_subtitle: 'Hero Subtitle'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744223184
+updated_at: 1744227676
 buttons:
   -
     id: m99zisfv
@@ -42,6 +42,8 @@ second_cta_heading: 'Second CTA Heading'
 second_cta_subheading: 'Second CTA Subheading'
 salvation_heading: 'Section Heading'
 salvation_subtitle: 'Section Subheading'
+second_cta_bg_image:
+  - manaloneinpark-e1571415867546.jpg
 ---
 ## Welcome to your brand new Statamic site!
 

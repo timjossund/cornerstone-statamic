@@ -97,6 +97,19 @@ tabs:
               type: bard
               display: 'Welcome Text'
       -
+        display: 'Salvation Section'
+        fields:
+          -
+            handle: salvation_heading
+            field:
+              type: text
+              display: 'Salvation Heading'
+          -
+            handle: salvation_subtitle
+            field:
+              type: text
+              display: 'Salvation Subtitle'
+      -
         display: 'Second CTA Section'
         fields:
           -
@@ -115,19 +128,12 @@ tabs:
             field:
               type: text
               display: 'Second CTA Subheading'
-      -
-        display: 'Salvation Section'
-        fields:
           -
-            handle: salvation_heading
+            handle: cta_image
             field:
-              type: text
-              display: 'Salvation Heading'
-          -
-            handle: salvation_subtitle
-            field:
-              type: text
-              display: 'Salvation Subtitle'
+              container: assets
+              type: assets
+              display: 'CTA Image'
   sidebar:
     display: Sidebar
     sections:

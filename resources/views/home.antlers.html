@@ -27,16 +27,16 @@
     </div>
     <p>{{ welcome_text }}</p>
 </section>
-<section class="second-cta-section">
-    <h2>{{ second_cta_heading }}</h2>
-    <h3>{{ second_cta_subheading }}</h3>
+<section class="salvation-section">
+    <h2>{{ salvation_heading }}</h2>
+    <h3>{{ salvation_subtitle }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
         {{ cta_button_text }}
     </a>
 </section>
-<section class="salvation-section">
-    <h2>{{ salvation_heading }}</h2>
-    <h3>{{ salvation_subtitle }}</h3>
+<section class="second-cta-section"style="{{second_cta_bg_image}}background-image:url('{{ glide:url width="100%" height="auto" }}');{{/second_cta_bg_image}}">
+    <h2>{{ second_cta_heading }}</h2>
+    <h3>{{ second_cta_subheading }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
         {{ cta_button_text }}
     </a>

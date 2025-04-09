@@ -99,6 +99,9 @@ p {
   margin-bottom: 40px;
 }
 .second-cta-section {
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
   padding-top: 75px;
   padding-bottom: 75px;
   display: flex;
