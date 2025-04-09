@@ -1,0 +1,150 @@
+title: 'Home Page'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+      -
+        display: 'Hero Section'
+        fields:
+          -
+            handle: hero_image
+            field:
+              container: assets
+              type: assets
+              display: 'Hero Image'
+          -
+            handle: hero_heading
+            field:
+              type: text
+              display: 'Hero Heading'
+          -
+            handle: hero_subtitle
+            field:
+              type: text
+              display: 'Hero Subtitle'
+          -
+            import: buttons
+      -
+        display: 'Home CYA'
+        fields:
+          -
+            handle: cta_heading
+            field:
+              type: text
+              display: 'CTA Heading'
+          -
+            handle: cta_subtitle
+            field:
+              type: text
+              display: 'CTA Subtitle'
+          -
+            handle: cta_button_text
+            field:
+              type: text
+              display: 'CTA Button Text'
+          -
+            handle: cta_button_link
+            field:
+              type: link
+              display: 'CTA Button Link'
+      -
+        display: 'Welcome Section'
+        fields:
+          -
+            handle: welcome_heading
+            field:
+              type: text
+              display: 'Welcome Heading'
+          -
+            handle: welcome_subtitle
+            field:
+              type: text
+              display: 'Welcome Subtitle'
+          -
+            handle: welcome_image
+            field:
+              container: assets
+              type: assets
+              display: 'Welcome Image'
+          -
+            handle: welcome_text
+            field:
+              remove_empty_nodes: false
+              antlers: true
+              type: bard
+              display: 'Welcome Text'
+      -
+        display: 'Second CTA Section'
+        fields:
+          -
+            handle: second_cta_bg_image
+            field:
+              container: assets
+              type: assets
+              display: 'Second CTA BG Image'
+          -
+            handle: second_cta_heading
+            field:
+              type: text
+              display: 'Second CTA Heading'
+          -
+            handle: second_cta_subheading
+            field:
+              type: text
+              display: 'Second CTA Subheading'
+      -
+        display: 'Salvation Section'
+        fields:
+          -
+            handle: salvation_heading
+            field:
+              type: text
+              display: 'Salvation Heading'
+          -
+            handle: salvation_subtitle
+            field:
+              type: text
+              display: 'Salvation Subtitle'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

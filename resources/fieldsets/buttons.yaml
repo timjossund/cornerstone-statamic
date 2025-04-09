@@ -1,0 +1,25 @@
+title: buttons
+fields:
+  -
+    handle: buttons
+    field:
+      max_sets: 2
+      type: replicator
+      display: buttons
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: button_text
+                  field:
+                    type: text
+                    display: 'Button Text'
+                -
+                  handle: button_link
+                  field:
+                    type: link
+                    display: 'Button Link'

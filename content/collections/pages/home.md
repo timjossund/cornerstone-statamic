@@ -1,8 +1,47 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
+title: Home
+template: home
+author: 7dc27224-e4be-43d2-b977-6b56abd75504
+hero_image:
+  - sheboygan-e1571415962712.jpg
+hero_heading: 'Hero Heading'
+hero_subtitle: 'Hero Subtitle'
+updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
+updated_at: 1744218812
+buttons:
+  -
+    id: m99zisfv
+    button_text: 'Give Securely Online'
+    type: new_set
+    enabled: true
+    button_link: 'https://4d129992.churchtrac.com/sign-in'
+cta_heading: 'CTA HEADING'
+cta_subtitle: 'CTA Subtitle'
+cta_button_text: 'CTA button'
+cta_button_link: /prayer
+welcome_heading: 'Welcome Heading'
+welcome_subtitle: 'Welcome Subtitle'
+welcome_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.'
+second_cta_heading: 'Second CTA Heading'
+second_cta_subheading: 'Second CTA Subheading'
+salvation_heading: 'Section Heading'
+salvation_subtitle: 'Section Subheading'
 ---
 ## Welcome to your brand new Statamic site!
 
