@@ -102,14 +102,15 @@ p {
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
   width: 100%;
   background-color: #2d2d2d;
+
 }
 .salvation-section {
   padding-top: 75px;
