@@ -6,10 +6,10 @@ template: home
 author: 7dc27224-e4be-43d2-b977-6b56abd75504
 hero_image:
   - sheboygan-e1571415962712.jpg
-hero_heading: 'Hero Heading'
-hero_subtitle: 'Hero Subtitle'
+hero_heading: 'Reaching Sheboygan, WI'
+hero_subtitle: 'with the Gospel of Jesus Christ'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744227676
+updated_at: 1744308822
 buttons:
   -
     id: m99zisfv
@@ -17,27 +17,27 @@ buttons:
     type: new_set
     enabled: true
     button_link: 'https://4d129992.churchtrac.com/sign-in'
-cta_heading: 'CTA Heading'
-cta_subtitle: 'CTA Subtitle'
-cta_button_text: 'CTA button'
+cta_heading: 'Do you need us pray for you?'
+cta_subtitle: 'Submit a prayer request.'
+cta_button_text: 'Submit Now'
 cta_button_link: /prayer
-welcome_heading: 'Welcome Heading'
-welcome_subtitle: 'Welcome Subtitle'
+welcome_heading: 'A personal welcome'
+welcome_subtitle: 'from Pastor Jossund'
 welcome_text:
   -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: "You're Welcome @ Cornerstone"
+  -
     type: paragraph
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.'
-  -
-    type: paragraph
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.'
+        text: 'Cornerstone is a thriving and biblically focused church. We have found God’s Word to be true and are building on its sure foundation. God has added many wonderful people since we started in 2011. Join us for our next worship service and we believe you will be drawn to praise God with us for the great things He has done!'
 second_cta_heading: 'Second CTA Heading'
 second_cta_subheading: 'Second CTA Subheading'
 salvation_heading: 'Section Heading'
