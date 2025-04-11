@@ -9,7 +9,7 @@ hero_image:
 hero_heading: 'Reaching Sheboygan, WI'
 hero_subtitle: 'with the Gospel of Jesus Christ'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744394807
+updated_at: 1744395607
 buttons:
   -
     id: m99zisfv
@@ -17,7 +17,7 @@ buttons:
     type: new_set
     enabled: true
     button_link: 'https://4d129992.churchtrac.com/sign-in'
-cta_heading: 'Do you need us pray for you?'
+cta_heading: 'Need Prayer?'
 cta_subtitle: 'Submit a prayer request.'
 cta_button_text: 'Submit Now'
 cta_button_link: /prayer
@@ -41,7 +41,7 @@ welcome_text:
 second_cta_heading: 'God never intended you to walk alone.'
 second_cta_subheading: 'Come be a part of our church family.'
 salvation_heading: 'Do you know Jesus?'
-salvation_subtitle: 'You can know for sure that your sins are forgiven.'
+salvation_subtitle: 'You can have your sins forgiven!'
 second_cta_bg_image:
   - manaloneinpark-e1571415867546.jpg
 sal_button_text: 'Learn More'
