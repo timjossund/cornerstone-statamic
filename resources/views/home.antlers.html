@@ -1,4 +1,6 @@
-<section class="hero-section" {{hero_image}}style="background-image:url('{{ glide:url width="100%" height="auto" }}');"{{/hero_image}}>
+{{hero_image}}
+<section class="hero-section rounded-xl"style="background-image:url('{{ glide:url width="100%" height="auto" }}');">
+{{/hero_image}}
     <div class="overlay"></div>
     <div class="hero-content">
         <h1>{{ hero_heading }}</h1>
@@ -10,31 +12,33 @@
         {{ /buttons }}
     </div>
 </section>
-<section class="first-cta">
+<section class="first-cta rounded-xl">
     <h2>{{ cta_heading }}</h2>
     <h3>{{ cta_subtitle }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
         {{ cta_button_text }}
     </a>
 </section>
-<section class="welcome-section">
+<section class="welcome-section rounded-xl">
     <h2>{{ welcome_heading }}</h2>
     <h3>{{ welcome_subtitle }}</h3>
-    <div class="welcome-image-wrapper rounded">
+    <div class="welcome-image-wrapper rounded-xl">
         {{ welcome_image }}
         <img src="{{ glikde:url width='100%' height='auto' }}" alt="">
         {{ /welcome_image }}
     </div>
     <p>{{ welcome_text }}</p>
 </section>
-<section class="salvation-section">
+<section class="salvation-section rounded-xl">
     <h2>{{ salvation_heading }}</h2>
     <h3>{{ salvation_subtitle }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
         {{ cta_button_text }}
     </a>
 </section>
-<section class="second-cta-section"{{second_cta_bg_image}}style="background-image:url('{{ glide:url width="100%" height="auto" }}');"{{/second_cta_bg_image}}>
+{{second_cta_bg_image}}
+<section class="second-cta-section rounded-xl"style="background-image: url('{{ glide:url width="100%" height="auto" }}');">
+{{/second_cta_bg_image}}
     <h2>{{ second_cta_heading }}</h2>
     <h3>{{ second_cta_subheading }}</h3>
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
