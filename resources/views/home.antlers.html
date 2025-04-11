@@ -1,6 +1,6 @@
 {{hero_image}}
-<section class="hero-section rounded-xl"style="background-image:url('{{ glide:url width=" 100%" height="auto" }}');">
-  {{/hero_image}}
+<section class="hero-section rounded-xl"style="background-image:url('{{ glide:url width="100%" height="auto" }}');">
+{{/hero_image}}
   <div class="overlay"></div>
   <div class="hero-content">
     <h1>{{ hero_heading }}</h1>
@@ -12,18 +12,11 @@
     {{ /buttons }}
   </div>
 </section>
-<section class="first-cta rounded-xl">
-  <h2>{{ cta_heading }}</h2>
-  <h3 class="-mt-2">{{ cta_subtitle }}</h3>
-  <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
-    {{ cta_button_text }}
-  </a>
-</section>
 <section class="welcome-section rounded-xl">
   <div class="w-1/3">
     <div class="welcome-image-wrapper rounded-xl">
       {{ welcome_image }}
-      <img src="{{ glikde:url width='100%' height='auto' }}" alt="">
+      <img src="{{ glide:url width='100%' height='auto' }}" alt="">
       {{ /welcome_image }}
     </div>
   </div>
@@ -33,17 +26,25 @@
     <p>{{ welcome_text }}</p>
   </div>
 </section>
-<section class="salvation-section rounded-xl">
-  <h2>{{ salvation_heading }}</h2>
-  <h3 class="-mt-2">{{ salvation_subtitle }}</h3>
-  <a href="{{ sal_button_link }}" class="bg-white px-6 py-4 text-black rounded">
-    {{ sal_button_text }}
-  </a>
+<section class="cta-wrapper flex">
+  <section class="first-cta rounded-xl">
+    <h2>{{ cta_heading }}</h2>
+    <h3 class="-mt-2">{{ cta_subtitle }}</h3>
+    <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
+      {{ cta_button_text }}
+    </a>
+  </section>
+  <section class="salvation-section rounded-xl">
+    <h2>{{ salvation_heading }}</h2>
+    <h3 class="-mt-2">{{ salvation_subtitle }}</h3>
+    <a href="{{ sal_button_link }}" class="bg-white px-6 py-4 text-black rounded">
+      {{ sal_button_text }}
+    </a>
+  </section>
 </section>
 {{second_cta_bg_image}}
-<section class="second-cta-section rounded-xl"style="background-image: url('{{ glide:url width=" 100%" height="auto"
-  }}');">
-  {{/second_cta_bg_image}}
+<section class="second-cta-section rounded-xl"style="background-image: url('{{ glide:url width="100%" height="auto" }}');">
+{{/second_cta_bg_image}}
   <div class="overlay"></div>
   <div class="hero-content">
     <h2>{{ second_cta_heading }}</h2>

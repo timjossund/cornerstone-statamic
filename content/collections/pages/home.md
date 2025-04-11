@@ -9,7 +9,7 @@ hero_image:
 hero_heading: 'Reaching Sheboygan, WI'
 hero_subtitle: 'with the Gospel of Jesus Christ'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744391804
+updated_at: 1744394807
 buttons:
   -
     id: m99zisfv
@@ -46,6 +46,8 @@ second_cta_bg_image:
   - manaloneinpark-e1571415867546.jpg
 sal_button_text: 'Learn More'
 sal_button_link: /jesus
+welcome_image:
+  - pastorpic-e1571415946482-2.jpg
 ---
 ## Welcome to your brand new Statamic site!
 
