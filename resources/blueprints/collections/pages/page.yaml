@@ -96,6 +96,20 @@ tabs:
               antlers: true
               type: bard
               display: 'Welcome Text'
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - h4
+                - h5
       -
         display: 'Salvation Section'
         fields:
@@ -109,6 +123,16 @@ tabs:
             field:
               type: text
               display: 'Salvation Subtitle'
+          -
+            handle: sal_button_text
+            field:
+              type: text
+              display: 'Salvation Button Text'
+          -
+            handle: sal_button_link
+            field:
+              type: link
+              display: 'Salvation Button Link'
       -
         display: 'Second CTA Section'
         fields:

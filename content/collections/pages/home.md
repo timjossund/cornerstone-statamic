@@ -9,7 +9,7 @@ hero_image:
 hero_heading: 'Reaching Sheboygan, WI'
 hero_subtitle: 'with the Gospel of Jesus Christ'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744308822
+updated_at: 1744391804
 buttons:
   -
     id: m99zisfv
@@ -27,7 +27,7 @@ welcome_text:
   -
     type: heading
     attrs:
-      level: 3
+      level: 4
     content:
       -
         type: text
@@ -38,12 +38,14 @@ welcome_text:
       -
         type: text
         text: 'Cornerstone is a thriving and biblically focused church. We have found God’s Word to be true and are building on its sure foundation. God has added many wonderful people since we started in 2011. Join us for our next worship service and we believe you will be drawn to praise God with us for the great things He has done!'
-second_cta_heading: 'Second CTA Heading'
-second_cta_subheading: 'Second CTA Subheading'
-salvation_heading: 'Section Heading'
-salvation_subtitle: 'Section Subheading'
+second_cta_heading: 'God never intended you to walk alone.'
+second_cta_subheading: 'Come be a part of our church family.'
+salvation_heading: 'Do you know Jesus?'
+salvation_subtitle: 'You can know for sure that your sins are forgiven.'
 second_cta_bg_image:
   - manaloneinpark-e1571415867546.jpg
+sal_button_text: 'Learn More'
+sal_button_link: /jesus
 ---
 ## Welcome to your brand new Statamic site!
 
