@@ -1,0 +1,45 @@
+title: 'Contact Page'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: contact_field
+            field:
+              max_items: 1
+              type: form
+              display: 'Contact Form'
+          -
+            handle: template_field
+            field:
+              type: template
+              display: 'Template Field'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
