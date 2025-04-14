@@ -9,10 +9,26 @@
 </head>
 <body class="bg-slate-100 font-sans leading-normal text-white">
   <header class="header">
+    <div class="logo-wrapper">
     {{ main_logo:main_logo }}
-    <img src="{{ glide:url }}" alt="" style="width:250px;height:auto;">
+      <img src="{{ glide:url width="280" height="auto"}}" alt="" style="width:280px;height:auto;">
     {{ /main_logo:main_logo }}
-    <h3>THIS IS THE HEADER</h3>
+    </div>
+    <div class="menu-wrapper">
+      <div class="flex gap-10">
+        <div>Home</div>
+        <div>Jesus</div>
+        <div>About</div>
+        <div>Contact</div>
+        <div>Watch</div>
+      </div>
+    </div>
+    <div class="login-wrapper">
+      <div class="login-btn rounded">
+        Login
+      </div>
+    </div>
+    
   </header>
   <div class="mx-auto lg:min-h-screen flex flex-col items-center">
     {{ template_content }}
