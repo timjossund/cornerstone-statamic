@@ -1,0 +1,12 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: main_logo
+            field:
+              container: assets
+              type: assets
+              display: 'main logo'
