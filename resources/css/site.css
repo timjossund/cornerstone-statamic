@@ -81,7 +81,7 @@ a {
 }
 .first-cta {
   background-color: #756256;
-  max-width: 592px;
+  min-width: 592px;
   width: 100%;
   padding: 75px;
   text-align: center;
@@ -125,7 +125,7 @@ a {
 .salvation-section {
   padding: 75px;
   text-align: center;
-  max-width: 592px;
+  min-width: 592px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -137,5 +137,6 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   gap: 16px;
+  
 }
 /* INTERIOR PAGE */
