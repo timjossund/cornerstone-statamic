@@ -1,10 +1,17 @@
+{{ if hero_image }}
 {{hero_image}}
 <section class="hero-section rounded-xl"style="background-image:url('{{ glide:url fit="cover" }}');">
-{{/hero_image}}
   <div class="overlay"></div>
+{{/hero_image}}
+{{ else }}
+<section class="hero-section rounded-xl" style="background-color: #756256;">
+{{ /if }}
+  
   <div class="hero-content">
     <h1>{{ hero_heading }}</h1>
+    {{ if hero_subtitle }}
     <h3 class="mb-8 -mt-2">{{ hero_subtitle }}</h3>
+    {{ /if }}
     {{ buttons }}
     <a href="{{ button_link }}" target="_blank" class="bg-white px-6 py-4 text-black rounded">
       {{ button_text }}
@@ -22,32 +29,48 @@
   </div>
   <div class="w-2/3 pt-10">
     <h2>{{ welcome_heading }}</h2>
-    <h3 class="-mt-2">{{ welcome_subtitle }}</h3>
-    <p>{{ welcome_text }}</p>
+    {{ if welcome_subtitle }}
+    <h5 class="-mt-2">{{ welcome_subtitle }}</h5>
+    {{ /if }}
+    <p class="mt-4">{{ welcome_text }}</p>
   </div>
 </section>
 <section class="cta-wrapper flex">
   <div class="first-cta rounded-xl">
     <h3>{{ cta_heading }}</h3>
+    {{ if cta_subtitle }}
     <p class="-mt-2">{{ cta_subtitle }}</p>
+    {{ /if }}
+    {{ if cta_button_text }}
     <a href="{{ cta_button_link }}" class="bg-white px-6 py-4 text-black rounded">
       {{ cta_button_text }}
     </a>
+    {{ /if }}
   </div>
   <div class="salvation-section rounded-xl">
     <h3>{{ salvation_heading }}</h3>
+    {{ if salvation_subtitle }}
     <p class="-mt-2">{{ salvation_subtitle }}</p>
+    {{ /if }}
+    {{ if sal_button_text }}
     <a href="{{ sal_button_link }}" class="bg-white px-6 py-4 text-black rounded">
       {{ sal_button_text }}
     </a>
+    {{ /if }}
   </div>
 </section>
+{{ if second_cta_bg_image }}
 {{second_cta_bg_image}}
 <section class="second-cta-section rounded-xl"style="background-image: url('{{ glide:url fit="cover" }}');">
 {{/second_cta_bg_image}}
   <div class="overlay"></div>
+{{ else }}
+<section class="hero-section rounded-xl" style="background-color: #756256;">
+{{ /if }}
   <div class="hero-content">
     <h2>{{ second_cta_heading }}</h2>
+    {{ if second_cta_subheading }}
     <h3 class="mb-8 -mt-2">{{ second_cta_subheading }}</h3>
+    {{ /if }}
   </div>
 </section>

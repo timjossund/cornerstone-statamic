@@ -4,12 +4,10 @@ blueprint: pages
 title: Home
 template: home
 author: 7dc27224-e4be-43d2-b977-6b56abd75504
-hero_image:
-  - sheboygan-e1571415962712.jpg
 hero_heading: 'Reaching Sheboygan, WI'
 hero_subtitle: 'with the Gospel of Jesus Christ'
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744397623
+updated_at: 1744816849
 buttons:
   -
     id: m99zisfv
@@ -31,7 +29,7 @@ welcome_text:
     content:
       -
         type: text
-        text: "You're Welcome @ Cornerstone"
+        text: "You're Welcome @ Cornerstone!"
   -
     type: paragraph
     content:
@@ -42,12 +40,14 @@ second_cta_heading: 'God never intended you to walk alone.'
 second_cta_subheading: 'Come be a part of our church family.'
 salvation_heading: 'Do you know Jesus?'
 salvation_subtitle: 'You can have your sins forgiven and a home in Heaven.'
-second_cta_bg_image:
-  - manaloneinpark-e1571415867546.jpg
 sal_button_text: 'Learn More'
 sal_button_link: /jesus
 welcome_image:
   - pastorpic-e1571415946482-2.jpg
+hero_image:
+  - sheboygan-e1571415962712.jpg
+second_cta_bg_image:
+  - manaloneinpark-e1571415867546.jpg
 ---
 ## Welcome to your brand new Statamic site!
 
