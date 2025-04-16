@@ -1,0 +1,16 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: form_name
+            field:
+              type: text
+              display: 'form name'
+          -
+            handle: form_mesaage
+            field:
+              type: textarea
+              display: 'form mesaage'
