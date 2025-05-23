@@ -61,29 +61,14 @@ a {
 }
 /* FOOTER */
 .footer {
-  max-width: 1200px;
-  width: 100%;
-  margin: 25px auto;
-  padding-top: 75px;
-  padding-bottom: 75px;
+
   background-color: rgb(23, 23, 23);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 /* HOME PAGE */
 .hero-section {
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  max-width: 1200px;
-  width: 100%;
-  margin: 15px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .overlay {
   background-color: rgba(0,0,0,.8);
@@ -100,20 +85,11 @@ a {
 }
 .first-cta {
   background-color: #756256;
-  min-width: 592px;
-  width: 100%;
-  padding: 75px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 .welcome-section {
   padding: 50px;
   background-color: rgb(23, 23, 23);
-  max-width: 1200px;
-  width: 100%;
+
   margin: 15px;
   display: flex;
   gap: 20px;
@@ -136,23 +112,13 @@ a {
   align-items: center;
   justify-content: center;
   color: white;
-  max-width: 1200px;
-  width: 100%;
   margin: 15px;
   background-color: #2d2d2d;
 }
 .salvation-section {
-  padding: 75px;
-  text-align: center;
-  min-width: 592px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #2d2d2d;
 }
 .cta-wrapper {
-  max-width: 1200px; 
   padding-top: 15px;
   padding-bottom: 15px;
   gap: 16px;

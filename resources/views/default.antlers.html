@@ -1,4 +1,10 @@
 <div class="mx-auto lg:min-h-screen flex flex-col items-center py-20">
-  {{ content }}
+    {{ if image }}
+        <div class="image-wrapper rounded-xl w-full h-full flex flex-col justify-center items-center min-h-[300px]">
+            {{image}}
+                <img src="{{ glide:url }}" alt="featured image">
+            {{ /image }}
+        </div>
+    {{ /if }}
+    {{ content }}
 </div>
-

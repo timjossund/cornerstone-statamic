@@ -4,7 +4,7 @@ blueprint: interior_page
 title: About
 template_field: default
 updated_by: 7dc27224-e4be-43d2-b977-6b56abd75504
-updated_at: 1744226009
+updated_at: 1748016617
 content:
   -
     type: heading
@@ -18,6 +18,8 @@ content:
           -
             type: bold
         text: 'About Cornerstone:'
+      -
+        type: hardBreak
   -
     type: paragraph
     attrs:
@@ -40,10 +42,12 @@ content:
       -
         type: text
         text: 'We are a thriving and biblically focused church. We have found God’s Word to be true and are building on its sure foundation. God has added many wonderful people since we started in 2011. Join us for our next worship service and we believe you will be drawn to praise God with us for the great things He has done!'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
+      -
+        type: hardBreak
+      -
+        type: hardBreak
+      -
+        type: hardBreak
   -
     type: heading
     attrs:
@@ -56,6 +60,8 @@ content:
           -
             type: bold
         text: 'Statement of Faith:'
+      -
+        type: hardBreak
   -
     type: paragraph
     attrs:

@@ -21,6 +21,12 @@ tabs:
         display: 'Interior Page'
         fields:
           -
+            handle: image
+            field:
+              container: assets
+              type: assets
+              display: image
+          -
             handle: content
             field:
               reading_time: true
