@@ -6,5 +6,20 @@
             {{ /image }}
         </div>
     {{ /if }}
+
     {{ content }}
+
+    {{ if contact_field }}
+    <div class="mx-auto lg:min-h-screen flex flex-col items-center py-20 w-full max-w-6xl gap-4">
+        {{ form:contact_us }}
+        <div class="w-full max-w-6xl rounded-xl flex flex-col items-center py-20 mb-4">
+            <input type="text" name="name" placeholder="Name" class="text-white rounded-xl w-full px-4 py-2 border !border-gray-300 mb-4">
+            <input type="text" name="email" placeholder="Email" class="text-white rounded-xl w-full px-4 py-2 border !border-gray-300 mb-4">    
+            <input type="text" name="phone" placeholder="Phone" class="text-white rounded-xl w-full px-4 py-2 border !border-gray-300 mb-4">
+            <textarea name="form_message" placeholder="Message" class="text-white rounded-xl w-full px-4 py-2 border !border-gray-300 mb-4"></textarea>
+            <button type="submit" class="bg-white px-6 py-4 text-black rounded">Submit</button>
+        </div>
+        {{ /form:contact_us }}
+    </div>
+    {{ /if }}
 </div>

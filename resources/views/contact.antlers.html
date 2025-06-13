@@ -1,5 +1,5 @@
-<div class="mx-auto lg:min-h-screen flex flex-col items-center py-20">
-{{ form:contact_us }}
+<div class="mx-auto lg:min-h-screen flex flex-col items-center py-20 bg-amber-50 w-full max-w-6xl">
+{{ form:contact }}
 {{# // First let's check if this is after a submission, and if so, was it successful.
 // If it was, just show the success message. After all, we don't want them submitting again once they've gotten in
 touch! #}}
@@ -7,7 +7,7 @@ touch! #}}
 <div class="bg-green-300 text-white p-2">
   {{ success }}
 </div>
-{{ else }}
+{{ /if }}
 {{# // If we weren't successful, show any errors. If a fresh page load, there's no errors, so do nothing. #}}
 {{ if errors }}
 <div class="bg-red-300 text-white p-2">
@@ -19,21 +19,12 @@ touch! #}}
 
 {{# // Loop through and render the form inputs #}}
 {{ fields }}
-<div class="p-2">
-  <label>{{ display }}</label>
-  <div class="p-1 bg-white">{{ field }}</div>
-  {{ if error }}
-  <p class="text-gray-500">{{ error }}</p>
-  {{ /if }}
-</div>
+  {{ field }}
 {{ /fields }}
-
 {{# // Add the honeypot field #}}
 <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
 
 {{# // This is just a submit button. #}}
 <button type="submit" class="bg-white text-black px-4 py-1">Submit</button>
-{{ /if }}
-
-{{ /form:contact_us }}
+{{ /form:contact }}
 </div>

@@ -3,14 +3,30 @@ tabs:
     display: Main
     sections:
       -
+        display: 'Contact Us'
         fields:
           -
-            handle: form_name
+            handle: name
             field:
               type: text
-              display: 'form name'
+              display: Name
+              placeholder: 'Your Name'
+              antlers: true
+              validate:
+                - required
           -
-            handle: form_mesaage
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: email
+          -
+            handle: phone
+            field:
+              type: text
+              display: phone
+          -
+            handle: form_message
             field:
               type: textarea
               display: 'form mesaage'

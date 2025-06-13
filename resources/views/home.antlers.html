@@ -1,23 +1,18 @@
-{{ if hero_image }}
 {{hero_image}}
-<section class="hero-section rounded-xl w-full max-w-6xl h-96 flex items-center justify-center relative" style="background-image:url('{{ glide:url fit="cover" }}');">
+<section class="hero-section rounded-xl w-full max-w-6xl h-96 flex items-center justify-center relative bg-[#756256]"style="background-image:url('{{ glide:url fit="cover" }}');">
   <div class="overlay"></div>
-{{/hero_image}}
-{{ else }}
-<section class="hero-section rounded-xl w-full max-w-6xl" style="background-color: #756256;">
-{{ /if }}
-
   <div class="hero-content">
-    <h1>{{ hero_heading }}</h1>
-    {{ if hero_subtitle }}
-    <h3 class="mb-8 -mt-2">{{ hero_subtitle }}</h3>
-    {{ /if }}
-    {{ buttons }}
-    <a href="{{ button_link }}" target="_blank" class="bg-white px-6 py-4 text-black rounded">
-      {{ button_text }}
-    </a>
-    {{ /buttons }}
-  </div>
+      <h1>{{ hero_heading }}</h1>
+      {{ if hero_subtitle }}
+      <h3 class="mb-8 -mt-2">{{ hero_subtitle }}</h3>
+      {{ /if }}
+      {{ buttons }}
+      <a href="{{ button_link }}" target="_blank" class="bg-white px-6 py-4 text-black rounded">
+          {{ button_text }}
+        </a>
+        {{ /buttons }}
+    </div>
+    {{/hero_image}}
 </section>
 <section class="welcome-section rounded-xl w-full max-w-6xl">
   <div class="w-1/3">
@@ -59,20 +54,14 @@
     {{ /if }}
   </div>
 </section>
-<section class="second-cta-section rounded-xl w-full max-w-6xl"
-{{ if second_cta_bg_image }}
-{{second_cta_bg_image}}
-    style="background-image: url('{{ glide:url fit="cover" }}');"
-{{/second_cta_bg_image}}
-{{ else }}
-    style="background-color: #756256;"
-{{ /if }}>
-
-  <div class="overlay"></div>
-  <div class="hero-content">
-    <h2>{{ second_cta_heading }}</h2>
-    {{ if second_cta_subheading }}
-    <h3 class="mb-8 -mt-2">{{ second_cta_subheading }}</h3>
-    {{ /if }}
-  </div>
+{{ second_cta_bg_image }}
+<section class="second-cta-section rounded-xl w-full max-w-6xl bg-[#756256]"style="background-image:url('{{ glide:url fit="cover" }}');"> 
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h2>{{ second_cta_heading }}</h2>
+        {{ if second_cta_subheading }}
+        <h3 class="mb-8 -mt-2">{{ second_cta_subheading }}</h3>
+        {{ /if }}
+    </div>
 </section>
+{{/second_cta_bg_image}}

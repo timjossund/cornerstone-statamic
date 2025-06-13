@@ -52,6 +52,12 @@ tabs:
                 - alignright
                 - alignjustify
               target_blank: true
+          -
+            handle: form
+            field:
+              max_items: 1
+              type: form
+              display: form
   sidebar:
     display: Sidebar
     sections:
